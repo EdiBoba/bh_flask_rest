@@ -1,8 +1,7 @@
 from sqlalchemy import text, MetaData, Table, Column, Integer, String
 
-from db import tables
-from db.session import engine, session_scope
-
+from old.db import tables
+from old.db import engine, session_scope
 
 text_sql = text("select * from cars_db.cars")
 with session_scope() as session:

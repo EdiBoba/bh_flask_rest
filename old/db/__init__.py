@@ -3,7 +3,5 @@ from . import tables
 
 
 __all__ = (
-    'Session',
-    'session_scope',
-    'tables'
+    'Session'
 )

@@ -4,7 +4,7 @@ from contextlib import contextmanager
 
 
 engine = create_engine(
-    'mysql+pymysql://root:admin@localhost:3306/films',
+    'mysql+pymysql://root:admin@localhost:3306/cars_db',
     pool_pre_ping=True,
     pool_recycle=3600,
 )
